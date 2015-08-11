@@ -3,7 +3,7 @@ package jp.co.lis.sample.jersey2.bean;
 import javax.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped
-public class SampleBean {
+public class SingletonBean {
 
 	private String value;
 

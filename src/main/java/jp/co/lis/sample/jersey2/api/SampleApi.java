@@ -7,7 +7,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import jp.co.lis.sample.jersey2.bean.SampleBean;
+import jp.co.lis.sample.jersey2.bean.SingletonBean;
 
 @Path("/sample")
 public class SampleApi {
@@ -32,7 +32,7 @@ public class SampleApi {
 
 
 	@Inject
-	protected SampleBean sampleBean;
+	protected SingletonBean sampleBean;
 
 	@Path("/setBeanValue")
 	@GET
